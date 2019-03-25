@@ -13,4 +13,5 @@ build:
     - script:
         name: build site
         code: |
+          hugo version
           cd exampleSite && hugo
